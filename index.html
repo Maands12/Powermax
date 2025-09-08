@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerMax Pro - O Poder que Você Precisa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>PowerMax</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#specs">Especificações</a></li>
+                <li><a href="#testimonials">Avaliações</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">PowerMax Pro 20.000mAh</h1>
+                    <h2 class="hero-subtitle">O Power Bank Mais Avançado do Mercado</h2>
+                    <p class="hero-description">
+                        Seu impulso de energia onde estiver!
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="buy-now">Comprar Agora</button>
+                        <button class="btn btn-secondary" id="learn-more">Saiba Mais</button>
+                    </div>
+                    <div class="hero-price">
+                        <span class="price-old">R$ 299,90</span>
+                        <span class="price-current">R$ 199,90</span>
+                        <span class="discount">33% OFF</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="powerbank-showcase">
+                        <div class="powerbank-3d"></div>
+                        <div class="charging-animation">
+                            <div class="battery-indicator">
+                                <div class="battery-level" id="battery-level"></div>
+                            </div>
+                            <span class="charging-text">Carregando...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Por que escolher o PowerMax Pro?</h2>
+                <div class="features-grid">
+                    <div class="feature-card" data-feature="capacity">
+                        <div class="feature-icon">⚡</div>
+                        <h3>20.000mAh</h3>
+                        <p>Capacidade gigante para carregar seu celular até 7 vezes</p>
+                    </div>
+                    <div class="feature-card" data-feature="speed">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Carregamento Rápido</h3>
+                        <p>Tecnologia Quick Charge 3.0 e Power Delivery</p>
+                    </div>
+                    <div class="feature-card" data-feature="ports">
+                        <div class="feature-icon">🔌</div>
+                        <h3>3 Saídas USB</h3>
+                        <p>Carregue até 3 dispositivos simultaneamente</p>
+                    </div>
+                    <div class="feature-card" data-feature="display">
+                        <div class="feature-icon">📱</div>
+                        <h3>Display Digital</h3>
+                        <p>Veja a carga restante com precisão</p>
+                    </div>
+                    <div class="feature-card" data-feature="safety">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Proteção Total</h3>
+                        <p>11 sistemas de proteção contra sobrecarga</p>
+                    </div>
+                    <div class="feature-card" data-feature="design">
+                        <div class="feature-icon">✨</div>
+                        <h3>Design Premium</h3>
+                        <p>Acabamento em alumínio e design ultracompacto</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="specs" class="specifications">
+            <div class="container">
+                <div class="specs-content">
+                    <div class="specs-text">
+                        <h2 class="section-title">Especificações Técnicas</h2>
+                        <div class="specs-list">
+                            <div class="spec-item">
+                                <span class="spec-label">Capacidade:</span>
+                                <span class="spec-value">20.000mAh / 74Wh</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Entrada:</span>
+                                <span class="spec-value">USB-C 5V/3A, 9V/2A</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Saída USB-A:</span>
+                                <span class="spec-value">5V/3A, 9V/2A, 12V/1.5A</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Saída USB-C:</span>
+                                <span class="spec-value">5V/3A, 9V/3A, 12V/2.25A</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Dimensões:</span>
+                                <span class="spec-value">150 × 68 × 24mm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Peso:</span>
+                                <span class="spec-value">420g</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Material:</span>
+                                <span class="spec-value">Liga de alumínio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specs-visual">
+                        <div class="powerbank-diagram">
+                            <div class="diagram-ports">
+                                <div class="port usb-c" data-port="usb-c">USB-C</div>
+                                <div class="port usb-a-1" data-port="usb-a1">USB-A 1</div>
+                                <div class="port usb-a-2" data-port="usb-a2">USB-A 2</div>
+                                <div class="port display" data-port="display">Display</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">O que nossos clientes dizem</h2>
+                <div class="testimonials-carousel">
+                    <div class="testimonial-card active">
+                        <div class="stars">★★★★★</div>
+                        <p>"Produto incrível! Já salvou minha vida várias vezes quando ficava sem bateria longe de casa."</p>
+                        <div class="testimonial-author">
+                            <strong>Maria Silva</strong>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"A qualidade é excepcional e o carregamento é realmente rápido. Recomendo demais!"</p>
+                        <div class="testimonial-author">
+                            <strong>João Santos</strong>
+                            <span>Rio de Janeiro, RJ</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Design lindo e funciona perfeitamente. Vale cada centavo investido."</p>
+                        <div class="testimonial-author">
+                            <strong>Ana Costa</strong>
+                            <span>Belo Horizonte, MG</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prev-testimonial">‹</button>
+                    <div class="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                    </div>
+                    <button class="carousel-btn next" id="next-testimonial">›</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Não perca esta oferta especial!</h2>
+                    <p>Apenas hoje: <strong>33% de desconto</strong> + <strong>frete grátis</strong> para todo o Brasil</p>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">12</span>
+                            <span class="countdown-label">Horas</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">34</span>
+                            <span class="countdown-label">Minutos</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">56</span>
+                            <span class="countdown-label">Segundos</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-large" id="final-cta">
+                        Comprar Agora por R$ 199,90
+                    </button>
+
+                    <a href="quiz.html">
+                    <button class="btn btn-primary btn-large">
+                        Quiz
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PowerMax</h3>
+                    <p>A melhor tecnologia em power banks do mercado brasileiro.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 11 952870966</p>
+                    <p>📧 contato@powermax.com.br</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Garantia de 2 anos</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PowerMax. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
